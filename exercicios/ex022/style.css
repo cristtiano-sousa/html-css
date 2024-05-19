@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgba(188, 224, 56, 0.671);
+}
+header{
+    background-color: rgb(16, 69, 79);
+    color: white;
+    padding: 5px;
+    margin: 2px auto 2px auto;
+}
+header > h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 3em;
+}
+
+nav{
+    background-color: rgb(80, 98, 102);
+    padding: 10px;
+}
+main{
+    font-family: "Work Sans", Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: rgb(80, 98, 102);
+    width: 1050px;
+    height: 600px;
+    padding: 20px;
+    margin: 0px auto 2px auto;
+    border-radius: 5px;
+    color: white;
+
+}
+
+article > h1#titulo1{
+    background-image: linear-gradient(to right,rgb(16, 69, 79), rgba(16, 69, 79, 0.699) ,rgba(16, 69, 79, 0.39) ,rgba(16, 69, 79, 0.068));
+    padding: 5px;
+    color: white;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+footer{
+    background-color: rgb(16, 69, 79);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+aside{
+    background-color: rgb(129, 130, 116);
+    padding: 2px 5px 2px 5px;
+    border-radius: 20px;
+}
+
+aside > p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+aside > p#nome{
+    background-color: rgb(163, 171, 120);
+    text-align: end;
+    padding: 2px;
+    border-radius: 20px;
+}
+a{
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
