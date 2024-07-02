@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Cabeçalho fixo em tabelas grandes</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		table {
+			border: 1px solid black;
+			border-collapse: collapse;
+			position: relative;
+		}
+		thead, tfoot {
+			background-color: gray;
+		}
+		
+		caption {
+			background-color: darkgray;
+			font-size: 1.2em;
+			padding: 10px;
+		}
+		
+		td, th {
+			border: 1px solid black;
+			padding: 8px;
+		}
+		
+		thead > tr > th {
+			position: sticky;
+			top: -1px;
+			background-color: gray;
+		}
+		
+		tbody > tr:nth-child(odd) {
+			background-color: lightgray;
+		}
+		
+		td.number {
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>População do Brasil por Estado</caption>
+		<thead>
+			<tr>
+				<th scope="col" style="width: 250px;">Estado</th>
+				<th scope="col" style="width: 100px;">População</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>São Paulo</td>
+				<td class="number">44 411 238</td>
+			</tr>
+			<tr>
+				<td>Minas Gerais</td>
+				<td class="number">20 538 718</td>
+			</tr>
+			<tr>
+				<td>Rio de Janeiro</td>
+				<td class="number">16 054 524</td>
+			</tr>
+			<tr>
+				<td>Bahia</td>
+				<td class="number">14 141 626</td>
+			</tr>
+			<tr>
+				<td>Paraná</td>
+				<td class="number">11 444 380</td>
+			</tr>
+			<tr>
+				<td>Rio Grande do Sul</td>
+				<td class="number">10 882 965</td>
+			</tr>
+			<tr>
+				<td>Pernambuco</td>
+				<td class="number">9 058 931</td>
+			</tr>
+			<tr>
+				<td>Ceará</td>
+				<td class="number">8 794 957</td>
+			</tr>
+			<tr>
+				<td>Pará</td>
+				<td class="number">8 121 025</td>
+			</tr>
+			<tr>
+				<td>Santa Catarina</td>
+				<td class="number">7 610 361</td>
+			</tr>
+			<tr>
+				<td>Goiás</td>
+				<td class="number">7 056 495</td>
+			</tr>
+			<tr>
+				<td>Maranhão</td>
+				<td class="number">6 775 805</td>
+			</tr>
+			<tr>
+				<td>Paraíba</td>
+				<td class="number">3 974 687</td>
+			</tr>
+			<tr>
+				<td>Amazonas</td>
+				<td class="number">3 941 613</td>
+			</tr>
+			<tr>
+				<td>Espirito Santo</td>
+				<td class="number">3 833 712</td>
+			</tr>
+			<tr>
+				<td>Mato Grosso</td>
+				<td class="number">3 658 649</td>
+			</tr>
+			<tr>
+				<td>Rio Grande do Norte</td>
+				<td class="number">3 302 729</td>
+			</tr>
+			<tr>
+				<td>Piauí</td>
+				<td class="number">3 271 199</td>
+			</tr>
+			<tr>
+				<td>Alagoas</td>
+				<td class="number">3 127 683</td>
+			</tr>
+			<tr>
+				<td>Distrito Federal</td>
+				<td class="number">2 817 381</td>
+			</tr>
+			<tr>
+				<td>Mato Grosso do Sul</td>
+				<td class="number">2 757 013</td>
+			</tr>
+			<tr>
+				<td>Sergipe</td>
+				<td class="number">2 209 558</td>
+			</tr>
+			<tr>
+				<td>Rondônia</td>
+				<td class="number">1 581 196</td>
+			</tr>
+			<tr>
+				<td>Tocantins</td>
+				<td class="number">1 511 460</td>
+			</tr>
+			<tr>
+				<td>Acre</td>
+				<td class="number">830 018</td>
+			</tr>
+			<tr>
+				<td>Amapá</td>
+				<td class="number">733 759</td>
+			</tr>
+			<tr>
+				<td>Roraima</td>
+				<td class="number">636 707</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th scope="row">População Total</th>
+				<td class="number"><strong>203 062 512</strong></td>
+			</tr>
+		</tfoot>
+	</table>
+	<p>
+	Lorem ipsum dolor sit amet. Ut ullam voluptatibus in eligendi recusandae aut incidunt adipisci et saepe quia aut consequatur itaque et temporibus esse? Aut animi molestiae aut galisum voluptatem eos expedita quia nam sint veniam et cumque repellendus et ipsum voluptates aut suscipit voluptatem. Cum necessitatibus velit At quis voluptas est aspernatur rerum aut enim dolores sed velit quam non atque quia ad iusto minima.Est optio molestiae est nobis quae non quibusdam magni vel rerum molestiae quo nemo dolorem. Vel praesentium quis qui debitis similique sed internos beatae et culpa autem qui deleniti quis. Sed labore exercitationem aut maiores voluptas est accusantium ratione. Eos dolorem porro 33 amet veritatis et placeat alias.Ex tenetur minus est recusandae molestiae eos assumenda voluptas ut iure esse! Sit facere aperiam aut voluptates alias sed cupiditate molestias sed odio atque qui facilis minus. Et praesentium asperiores et reiciendis similique ad mollitia Quis et quaerat aperiam ut consequuntur delectus ut nostrum repellat eos reiciendis laboriosam. Eos sint suscipit est consequatur quia quo maiores molestias qui earum mollitia est harum quisquam.
+	</p>
+	<p>
+	Lorem ipsum dolor sit amet. Ut ullam voluptatibus in eligendi recusandae aut incidunt adipisci et saepe quia aut consequatur itaque et temporibus esse? Aut animi molestiae aut galisum voluptatem eos expedita quia nam sint veniam et cumque repellendus et ipsum voluptates aut suscipit voluptatem. Cum necessitatibus velit At quis voluptas est aspernatur rerum aut enim dolores sed velit quam non atque quia ad iusto minima.Est optio molestiae est nobis quae non quibusdam magni vel rerum molestiae quo nemo dolorem. Vel praesentium quis qui debitis similique sed internos beatae et culpa autem qui deleniti quis. Sed labore exercitationem aut maiores voluptas est accusantium ratione. Eos dolorem porro 33 amet veritatis et placeat alias.Ex tenetur minus est recusandae molestiae eos assumenda voluptas ut iure esse! Sit facere aperiam aut voluptates alias sed cupiditate molestias sed odio atque qui facilis minus. Et praesentium asperiores et reiciendis similique ad mollitia Quis et quaerat aperiam ut consequuntur delectus ut nostrum repellat eos reiciendis laboriosam. Eos sint suscipit est consequatur quia quo maiores molestias qui earum mollitia est harum quisquam.
+	</p>
+	<p>
+	Lorem ipsum dolor sit amet. Ut ullam voluptatibus in eligendi recusandae aut incidunt adipisci et saepe quia aut consequatur itaque et temporibus esse? Aut animi molestiae aut galisum voluptatem eos expedita quia nam sint veniam et cumque repellendus et ipsum voluptates aut suscipit voluptatem. Cum necessitatibus velit At quis voluptas est aspernatur rerum aut enim dolores sed velit quam non atque quia ad iusto minima.Est optio molestiae est nobis quae non quibusdam magni vel rerum molestiae quo nemo dolorem. Vel praesentium quis qui debitis similique sed internos beatae et culpa autem qui deleniti quis. Sed labore exercitationem aut maiores voluptas est accusantium ratione. Eos dolorem porro 33 amet veritatis et placeat alias.Ex tenetur minus est recusandae molestiae eos assumenda voluptas ut iure esse! Sit facere aperiam aut voluptates alias sed cupiditate molestias sed odio atque qui facilis minus. Et praesentium asperiores et reiciendis similique ad mollitia Quis et quaerat aperiam ut consequuntur delectus ut nostrum repellat eos reiciendis laboriosam. Eos sint suscipit est consequatur quia quo maiores molestias qui earum mollitia est harum quisquam.
+	</p>
+	<p>
+	Lorem ipsum dolor sit amet. Ut ullam voluptatibus in eligendi recusandae aut incidunt adipisci et saepe quia aut consequatur itaque et temporibus esse? Aut animi molestiae aut galisum voluptatem eos expedita quia nam sint veniam et cumque repellendus et ipsum voluptates aut suscipit voluptatem. Cum necessitatibus velit At quis voluptas est aspernatur rerum aut enim dolores sed velit quam non atque quia ad iusto minima.Est optio molestiae est nobis quae non quibusdam magni vel rerum molestiae quo nemo dolorem. Vel praesentium quis qui debitis similique sed internos beatae et culpa autem qui deleniti quis. Sed labore exercitationem aut maiores voluptas est accusantium ratione. Eos dolorem porro 33 amet veritatis et placeat alias.Ex tenetur minus est recusandae molestiae eos assumenda voluptas ut iure esse! Sit facere aperiam aut voluptates alias sed cupiditate molestias sed odio atque qui facilis minus. Et praesentium asperiores et reiciendis similique ad mollitia Quis et quaerat aperiam ut consequuntur delectus ut nostrum repellat eos reiciendis laboriosam. Eos sint suscipit est consequatur quia quo maiores molestias qui earum mollitia est harum quisquam.
+	</p>
+	<p>
+	Lorem ipsum dolor sit amet. Ut ullam voluptatibus in eligendi recusandae aut incidunt adipisci et saepe quia aut consequatur itaque et temporibus esse? Aut animi molestiae aut galisum voluptatem eos expedita quia nam sint veniam et cumque repellendus et ipsum voluptates aut suscipit voluptatem. Cum necessitatibus velit At quis voluptas est aspernatur rerum aut enim dolores sed velit quam non atque quia ad iusto minima.Est optio molestiae est nobis quae non quibusdam magni vel rerum molestiae quo nemo dolorem. Vel praesentium quis qui debitis similique sed internos beatae et culpa autem qui deleniti quis. Sed labore exercitationem aut maiores voluptas est accusantium ratione. Eos dolorem porro 33 amet veritatis et placeat alias.Ex tenetur minus est recusandae molestiae eos assumenda voluptas ut iure esse! Sit facere aperiam aut voluptates alias sed cupiditate molestias sed odio atque qui facilis minus. Et praesentium asperiores et reiciendis similique ad mollitia Quis et quaerat aperiam ut consequuntur delectus ut nostrum repellat eos reiciendis laboriosam. Eos sint suscipit est consequatur quia quo maiores molestias qui earum mollitia est harum quisquam.
+	</p>
+	<p>
+	Lorem ipsum dolor sit amet. Ut ullam voluptatibus in eligendi recusandae aut incidunt adipisci et saepe quia aut consequatur itaque et temporibus esse? Aut animi molestiae aut galisum voluptatem eos expedita quia nam sint veniam et cumque repellendus et ipsum voluptates aut suscipit voluptatem. Cum necessitatibus velit At quis voluptas est aspernatur rerum aut enim dolores sed velit quam non atque quia ad iusto minima.Est optio molestiae est nobis quae non quibusdam magni vel rerum molestiae quo nemo dolorem. Vel praesentium quis qui debitis similique sed internos beatae et culpa autem qui deleniti quis. Sed labore exercitationem aut maiores voluptas est accusantium ratione. Eos dolorem porro 33 amet veritatis et placeat alias.Ex tenetur minus est recusandae molestiae eos assumenda voluptas ut iure esse! Sit facere aperiam aut voluptates alias sed cupiditate molestias sed odio atque qui facilis minus. Et praesentium asperiores et reiciendis similique ad mollitia Quis et quaerat aperiam ut consequuntur delectus ut nostrum repellat eos reiciendis laboriosam. Eos sint suscipit est consequatur quia quo maiores molestias qui earum mollitia est harum quisquam.
+	</p>
+	<p>
+	Lorem ipsum dolor sit amet. Ut ullam voluptatibus in eligendi recusandae aut incidunt adipisci et saepe quia aut consequatur itaque et temporibus esse? Aut animi molestiae aut galisum voluptatem eos expedita quia nam sint veniam et cumque repellendus et ipsum voluptates aut suscipit voluptatem. Cum necessitatibus velit At quis voluptas est aspernatur rerum aut enim dolores sed velit quam non atque quia ad iusto minima.Est optio molestiae est nobis quae non quibusdam magni vel rerum molestiae quo nemo dolorem. Vel praesentium quis qui debitis similique sed internos beatae et culpa autem qui deleniti quis. Sed labore exercitationem aut maiores voluptas est accusantium ratione. Eos dolorem porro 33 amet veritatis et placeat alias.Ex tenetur minus est recusandae molestiae eos assumenda voluptas ut iure esse! Sit facere aperiam aut voluptates alias sed cupiditate molestias sed odio atque qui facilis minus. Et praesentium asperiores et reiciendis similique ad mollitia Quis et quaerat aperiam ut consequuntur delectus ut nostrum repellat eos reiciendis laboriosam. Eos sint suscipit est consequatur quia quo maiores molestias qui earum mollitia est harum quisquam.
+	</p>
+</body>
+</html>

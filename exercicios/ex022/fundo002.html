@@ -1,67 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens que se repetem no fundo de um site</title>
-    <style>
-        body{
-            background-color: rgba(127, 255, 212, 0.548);
-        }
-        .quadrado{
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 10px;
-            margin: 10px auto 10px auto;
-            padding: 10px;
-            height: 200px;
-            width: 500px;
-        }
-        #q1{
-            background-image: url('imagens/pattern003.png');
-        }
-        #q2{
-            background-image: url('imagens/pattern003.png');
-            background-repeat: no-repeat;
-        }
-        #q3{
-            background-image: url('imagens/pattern003.png');
-            background-repeat: repeat-x;
-        }
-        #q4{
-            background-image: url('imagens/pattern003.png');
-            background-repeat: repeat-y;
-        }
-    </style>
-</head>
-<body>
-    <h1 style="text-align: center;">Personalizando a aplicação do background</h1>
-    <p>
-        Por padrão, quando a imagem aplicada ao fundo de uma caixa é menor que a aréa da caixa, a imagem é repetida até que toda a aréa seja coberta, mas da pra forçar o navegador a repetir a imagem, usando o parametro <span style="font-weight: bold;">background-repeat: repeat;</span>.
-    </p>
-    <div class="quadrado" id="q1">
-
-    </div>
-
-    <p>
-        Para fazer com que a imagem não se repita, forçando a ficar no canto superior esquerdo como padrão, caso ela seja menor que a area da caixa, podemos usar o parametro <span style="font-weight: bold;">background-repeat: no-repeat;</span>.
-    </p>
-
-    <div class="quadrado" id="q2">
-
-    </div>
-
-    <p>
-        <span style="font-weight: bold;">background-repeat: repeat-x;</span><br>Isso vai fazer com que a imagem se repita apenas no eixo 'x'.
-    </p>
-    <div class="quadrado" id="q3">
-
-    </div>
-    <p>
-        <span style="font-weight: bold;">background-repeat: repeat-y;</span><br>Assim vai fazer com que a imagem se repita apenas no eixo 'y'.
-    </p>
-    <div class="quadrado" id="q4">
-
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Personalizando a aplicação do background</title>
+		<style>
+			body{
+				background-image:url('imagens/pattern003.png');
+				background-size: 100px 100px;
+				background-repeat: no-repeat;
+				/*background-repeat: repeat-x;*/
+				/*background-repeat: repeat-y;*/
+			}
+		</style>
+	</head>
+	<body>
+	</body> 
 </html>

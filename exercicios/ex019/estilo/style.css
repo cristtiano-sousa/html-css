@@ -1,0 +1,38 @@
+@charset UTF-8;
+
+body{
+	font: normal 16px Arial, Helvetica, sans-serif;
+	background-color: #BEFFC1;
+}
+
+h1{
+	color: #063306;
+	background-color: #C9FF93;
+	width: auto;
+}
+
+h1#principal{
+	text-align: center;
+	color: white;
+	background-color: #063306;
+}
+h2{
+	color: #063306;
+}
+
+p{
+	text-align: justify;
+	text-indent: 30px;
+}
+
+.basico{
+	color: green;
+}
+
+.intermediario{
+	color: lime;
+}
+
+.avancado{
+	color: red;
+}
